@@ -70,6 +70,7 @@ The output should be as followed:
 ```
 Example:
 ```json
+#network1.log
 {
      "message": null,
      "pageStartAt": "2023-02-14T07:03:26.537131Z",
