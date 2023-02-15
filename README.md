@@ -3,7 +3,7 @@
 ## What is it ?
 A solution that helps you to quickly collect the logs of ```Network-wide > Event Log```. If you use the ```Download as > CSV``` button, you will download only the 30 events that are displayed on the page:
 
-<img width="" alt="image" src="https://user-images.githubusercontent.com/28600326/218786336-73f17349-1815-42cd-a3ba-93e9aed8c655.png">
+<img width="" alt="image" src="https://user-images.githubusercontent.com/28600326/219025453-c4a8cda2-4d03-45f7-8ed2-f9e5a4919635.png">
 
 If you need to get more, you will need to collect the logs 30 by 30 by clicking on ```older >>``` and then ```Download as > CSV```.
 
