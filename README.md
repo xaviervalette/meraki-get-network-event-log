@@ -15,7 +15,7 @@ Using the following python script to collect, via API, the Event Logs of Meraki 
 
 ## Get started
 1. Clone or download this repo
-2. Add a file called variables.py as follow:
+2. Add a file called config.yml as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
