@@ -48,7 +48,7 @@ networks:
 ...
 
 ```
-ⓘ You can change the filenames and productTypes to match your needs
+> ⓘ You can change the ```filenames``` and ```productTypes``` to match your needs
 
 4. Now you can run the code by using the following command:
 ```console
