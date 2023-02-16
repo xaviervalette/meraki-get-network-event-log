@@ -25,7 +25,7 @@ To face this limitation, you can use the following python script to collect, via
     │    └── main.py  
     └── log/
 ```
-3. In the variables.py file, add the following variables:
+3. In the config.yml file, add the following variables:
 ```yaml
 #config.yml
 ---
