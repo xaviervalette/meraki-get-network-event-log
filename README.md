@@ -16,7 +16,7 @@ To face this limitation, you can use the following python script to collect, via
 
 ## Get started
 1. Clone or download this repo
-2. Add a file called config.yml as follow:
+2. Add a file called ```config.yml``` as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
@@ -25,7 +25,7 @@ To face this limitation, you can use the following python script to collect, via
     │    └── main.py  
     └── log/
 ```
-3. In the config.yml file, add the following variables:
+3. In the ```config.yml``` file, add the following variables:
 ```yaml
 #config.yml
 ---
