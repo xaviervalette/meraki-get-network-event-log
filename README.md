@@ -16,14 +16,17 @@ To face this limitation, you can use the following python script to collect, via
 
 ## Get started
 1. Clone or download this repo
-2. Add a file called ```config.yml``` as follow:
+```console
+git clone https://github.com/xaviervalette/meraki-network-event-log-collector
+```
+2. Add a ```config.yml``` file and a ```log``` folder as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
     └── src/
     │    ├── functions.py
     │    └── main.py  
-    └── log/
++   └── log/
 ```
 3. In the ```config.yml``` file, add the following variables:
 ```yaml
@@ -52,7 +55,7 @@ networks:
 
 4. Now you can run the code by using the following command:
 ```console
-python3 <your_workpath>/meraki-network-event-log-collector/main.py
+python3 src/main.py
 ```
 
 ## Output
