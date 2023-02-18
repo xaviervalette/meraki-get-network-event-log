@@ -19,7 +19,11 @@ To face this limitation, you can use the following python script to collect, via
 ```console
 git clone https://github.com/xaviervalette/meraki-network-event-log-collector
 ```
-2. Add a ```config.yml``` file and a ```log``` folder as follow:
+2. Install required packages
+```console
+pip3 install -r requirements.txt
+```
+4. Add a ```config.yml``` file and a ```log``` folder as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
