@@ -7,11 +7,10 @@ import json
 import time
 from functions import *
 import yaml
-import pandas as pd
 
 
 # Open the config.yml file and load its contents into the 'config' variable
-with open('../config.yml', 'r') as file:
+with open('config.yml', 'r') as file:
     config = yaml.safe_load(file)
 
 headers = {
