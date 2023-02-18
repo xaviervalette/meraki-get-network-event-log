@@ -23,7 +23,7 @@ git clone https://github.com/xaviervalette/meraki-network-event-log-collector
 ```console
 pip3 install -r requirements.txt
 ```
-4. Add a ```config.yml``` file and a ```log``` folder as follow:
+3. Add a ```config.yml``` file and a ```log``` folder as follow:
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
     │    └── main.py  
 +   └── log/
 ```
-3. In the ```config.yml``` file, add the following variables:
+4. In the ```config.yml``` file, add the following variables:
 ```yaml
 #config.yml
 ---
@@ -57,7 +57,7 @@ networks:
 ```
 > ⓘ You can change the ```filenames``` and ```productTypes``` to match your needs
 
-4. Now you can run the code by using the following command:
+5. Now you can run the code by using the following command:
 ```console
 python3 src/main.py
 ```
