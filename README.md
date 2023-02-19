@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 ```diff
 └── meraki-network-event-log-collector/
 +   ├── config.yml
-    └── src/
+    ├── src/
     │    ├── functions.py
     │    └── main.py  
 +   └── log/
