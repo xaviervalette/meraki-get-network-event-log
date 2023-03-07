@@ -21,7 +21,7 @@ git clone https://github.com/xaviervalette/meraki-network-event-log-collector
 ```
 2. Install required packages
 ```console
-pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 3. Add a ```config.yml``` file and a ```log``` folder as follow:
 ```diff
