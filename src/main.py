@@ -7,6 +7,7 @@ import json
 import time
 from functions import *
 import yaml
+from datetime import datetime
 
 
 # Open the config.yml file and load its contents into the 'config' variable
@@ -24,5 +25,6 @@ for network in config["networks"]:
     url = f"https://api.meraki.com/api/v1/networks/{network['networkId']}/events?productType={network['productType']}&perPage={network['perPage']}"
     payload = None
     response = requests.request('GET', url, headers=headers, data = payload)
-    writeToJsonFile(filepath=config["logFolder"]+network["filename"],dataJson=response.json())
+    now = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+    writeToJsonFile(filepath=config["logFolder"]+now+"_"+network["filename"], dataJson=response.json())
 
