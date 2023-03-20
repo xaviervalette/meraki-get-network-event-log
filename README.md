@@ -71,9 +71,9 @@ The output should be as followed:
     │    ├── functions.py
     │    └── main.py  
     └── log/
-+        ├── network1.log
++        ├── YYYY-MM-DDThh:mm:ssZ_network1.log
 +        ├── ...
-+        └── networkN.log
++        └── YYYY-MM-DDThh:mm:ssZ_networkN.log
     
 ```
 Example:
